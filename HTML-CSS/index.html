@@ -24,23 +24,32 @@
         <link rel="stylesheet" href="style.css">
         <style>
             html {
-                font-size: 250%;
+                font-size: 200%;
             }
             .box {
                 width: 50%;
                 height: 100px;
                 background-color: red;
             }
+            .box:active{
+                background-color: #333;
+            }
 
-            h1 {
-                font-size: 1em;
+            h1::before {
+                content: "👉";
+            }
+            h1::after{
+                content: "✔";
+            }
+            ol::selection {
+                background-color: violet;
             }
         </style>
     </head>
     <!-- Phần thân -->
     <body>
         <div class="box"></div>
-        <h1 style="color: blueviolet; font-size: 16;">The vid</h1>
+        <h1 font-size="24px">The vid</h1>
         <button>Dăng kí</button>
         <input type="checkbox" name="" id="">
         <p>abc abc abc</p>
