@@ -1,10 +1,28 @@
-:root {
-    --text-color: red;
+html{
+    font-size: 24px;
+}
+.box {
+    color: white;
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+    float: left;
+
+}
+.box1 {
+    background-color: #333;
+
 }
 
-h1 {
-    color: var(--text-color);
+.box2 {
+    background-color: orange;
+
 }
-tr {
-    color: var(--text-color)
+
+.box3 {
+    background-color: firebrick;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
 }
